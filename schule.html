@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Schule – Deine Welt, deine Zukunft</title>
+  <meta name="description" content="Wie viel Müll entsteht in der Pause? Rechner und Tipps für Schulen.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="nav">
+    <a class="brand" href="index.html">🌍 <span>Deine Welt</span></a>
+    <ul>
+      <li><a href="index.html">Start</a></li>
+      <li><a href="fakten.html">Fakten</a></li>
+      <li><a href="schule.html" aria-current="page">Schule</a></li>
+      <li><a href="tipps.html">Tipps</a></li>
+      <li><a href="mitmachen.html">Mitmachen</a></li>
+    </ul>
+  </nav>
+
+  <header class="page-hero">
+    <div class="blob b1"></div>
+    <div class="blob b3"></div>
+    <span class="emoji">🎒</span>
+    <h1><span class="grad">Müll in der Pause</span></h1>
+    <p>Wie viel macht deine Schule?</p>
+  </header>
+
+  <section class="section">
+    <h2 class="reveal">Der Müll-Rechner</h2>
+    <p class="sub reveal">Schieberegler bewegen und staunen.</p>
+
+    <div class="calc reveal">
+      <div class="field">
+        <label for="schueler">Schüler an deiner Schule <b id="v-schueler">500</b></label>
+        <input type="range" id="schueler" min="50" max="2000" step="10" value="500">
+      </div>
+      <div class="field">
+        <label for="stueck">Verpackungen pro Schüler und Tag <b id="v-stueck">1</b></label>
+        <input type="range" id="stueck" min="0" max="5" step="1" value="1">
+      </div>
+      <div class="results">
+        <div class="res"><div class="big-num" id="r-woche">0</div><small>Stück pro Woche</small></div>
+        <div class="res"><div class="big-num" id="r-jahr">0</div><small>Stück pro Schuljahr</small></div>
+        <div class="res"><div class="big-num" id="r-kg">0</div><small>kg Müll pro Schuljahr</small></div>
+      </div>
+      <p class="note">Rechenbeispiel, keine Messung. Annahmen: 190 Schultage, etwa 10 g pro Verpackung (Chipstüte, Folie, Riegelpapier).</p>
+    </div>
+  </section>
+
+  <section class="section dark">
+    <h2 class="reveal">Echte Zahlen</h2>
+    <p class="sub reveal">Was Studien und Schulprojekte zeigen.</p>
+    <div class="stats">
+      <article class="stat reveal">
+        <div class="icon">🧃</div>
+        <div class="num"><span class="count" data-to="180">0</span></div>
+        <p>Flaschen pro Schüler und Jahr</p>
+        <small>≈ 5,4 kg Plastikabfall · Abfallwirtschaft Tirol Mitte (Österreich)</small>
+      </article>
+      <article class="stat reveal">
+        <div class="icon">🍱</div>
+        <div class="num">bis <span class="count" data-to="34">0</span> kg</div>
+        <p>Verpackungsmüll pro Person und Jahr lassen sich mit Brotdose und Co. sparen</p>
+        <small>Abfallverband Hollabrunn (Österreich)</small>
+      </article>
+      <article class="stat reveal">
+        <div class="icon">📦</div>
+        <div class="num"><span class="count" data-to="227.5" data-dec="1">0</span> kg</div>
+        <p>Verpackungsmüll pro Person und Jahr in Deutschland</p>
+        <small>Umweltbundesamt, Stand 2018</small>
+      </article>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2 class="reveal">Pausen-Tipps</h2>
+    <p class="sub reveal">Klein anfangen, Klasse mitnehmen.</p>
+    <div class="cards">
+      <div class="card reveal"><span class="ic">🍱</span><h3>Brotdose</h3><p>Statt Folie und Tüte. Jeden Tag wieder verwendbar.</p></div>
+      <div class="card reveal"><span class="ic">🚰</span><h3>Trinkflasche</h3><p>Leitungswasser statt Einwegflasche.</p></div>
+      <div class="card reveal"><span class="ic">🍴</span><h3>Eigenes Besteck</h3><p>Für die Mittagspause. Kein Plastikbesteck nötig.</p></div>
+      <div class="card reveal"><span class="ic">🗑️</span><h3>Richtig trennen</h3><p>Verpackungen in den gelben Sack, nicht in den Restmüll.</p></div>
+      <div class="card reveal"><span class="ic">⚖️</span><h3>Müllwoche</h3><p>Eine Woche Plastikmüll sammeln, wiegen, vergleichen.</p></div>
+      <div class="card reveal"><span class="ic">🧹</span><h3>Schulhof-Aktion</h3><p>Gemeinsam aufräumen und zählen, was liegt.</p></div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
