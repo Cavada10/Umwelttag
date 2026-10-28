@@ -4,12 +4,22 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Deine Welt, deine Zukunft</title>
-  <meta name="description" content="Umweltschutz und Nachhaltigkeit für Jugendliche: Fakten und 8 Strategien für deinen Alltag.">
+  <meta name="description" content="Umweltschutz und Nachhaltigkeit für Jugendliche: Fakten, Schul-Rechner und Tipps für den Alltag.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- HERO -->
+  <nav class="nav">
+    <a class="brand" href="index.html">🌍 <span>Deine Welt</span></a>
+    <ul>
+      <li><a href="index.html" aria-current="page">Start</a></li>
+      <li><a href="fakten.html">Fakten</a></li>
+      <li><a href="schule.html">Schule</a></li>
+      <li><a href="tipps.html">Tipps</a></li>
+      <li><a href="mitmachen.html">Mitmachen</a></li>
+    </ul>
+  </nav>
+
   <header class="hero">
     <div class="blob b1"></div>
     <div class="blob b2"></div>
@@ -18,113 +28,44 @@
       <span class="globe">🌍</span>
       <h1>Deine Welt,<br><span class="grad">deine Zukunft</span></h1>
       <p>Gemeinsam für den Planeten.</p>
-      <a href="#fakten" class="btn">Los geht's</a>
+      <a href="fakten.html" class="btn">Zu den Fakten</a>
     </div>
-    <div class="scroll-hint">↓</div>
   </header>
 
-  <!-- FAKTEN -->
-  <section id="fakten" class="section">
-    <h2 class="reveal">Die Fakten</h2>
-    <p class="sub reveal">Wo unser Planet unter Druck steht.</p>
-
-    <div class="stats">
-      <article class="stat reveal">
-        <div class="icon">🌊</div>
-        <div class="num"><span class="count" data-to="12">0</span> Mio. t</div>
-        <p>Plastikmüll pro Jahr im Meer<br><small>(8–12 Mio. t)</small></p>
-      </article>
-
-      <article class="stat reveal">
-        <div class="icon">👖</div>
-        <div class="num"><span class="count" data-to="10">0</span> %</div>
-        <p>der Treibhausgase durch Mode</p>
-      </article>
-
-      <article class="stat reveal">
-        <div class="icon">💧</div>
-        <div class="num"><span class="count" data-to="7500" data-sep="1">0</span> L</div>
-        <p>Wasser für eine Jeans</p>
-      </article>
-
-      <article class="stat reveal">
-        <div class="icon">🍞</div>
-        <div class="num"><span class="count" data-to="11">0</span> Mio. t</div>
-        <p>Lebensmittelmüll pro Jahr in Deutschland</p>
-      </article>
-
-      <article class="stat reveal">
-        <div class="icon">🥇</div>
-        <div class="num">Platz <span class="count" data-to="3">0</span></div>
-        <p>Lebensmittelverschwendung wäre der drittgrößte Emittent</p>
-      </article>
-
-      <article class="stat reveal">
-        <div class="icon">🏠</div>
-        <div class="num"><span class="count" data-to="50">0</span> %</div>
-        <p>davon in privaten Haushalten<br><small>(fast die Hälfte)</small></p>
-      </article>
+  <div class="ticker" aria-hidden="true">
+    <div class="track">
+      <span>🌊 8–12 Mio. t Plastik im Meer pro Jahr</span>
+      <span>👖 7.500 L Wasser für eine Jeans</span>
+      <span>📱 167 Mio. Alt-Handys in deutschen Schubladen</span>
+      <span>📦 227,5 kg Verpackungsmüll pro Kopf</span>
+      <span>🚿 2 Minuten kürzer duschen = 20–30 L pro Tag</span>
+      <span>🌊 8–12 Mio. t Plastik im Meer pro Jahr</span>
+      <span>👖 7.500 L Wasser für eine Jeans</span>
+      <span>📱 167 Mio. Alt-Handys in deutschen Schubladen</span>
+      <span>📦 227,5 kg Verpackungsmüll pro Kopf</span>
+      <span>🚿 2 Minuten kürzer duschen = 20–30 L pro Tag</span>
     </div>
-  </section>
+  </div>
 
-  <!-- STRATEGIEN -->
-  <section class="section dark">
-    <h2 class="reveal">8 Strategien</h2>
-    <p class="sub reveal">Kleine Schritte, große Wirkung.</p>
-
+  <section class="section">
+    <h2 class="reveal">Was dich erwartet</h2>
+    <p class="sub reveal">Vier Seiten. Wenig Text. Viele Zahlen.</p>
     <div class="cards">
-      <div class="card reveal"><span>🚲</span><h3>Mobilität</h3><p>Rad, Bus, Bahn, zu Fuß.</p></div>
-      <div class="card reveal"><span>👕</span><h3>Bewusst kleiden</h3><p>Secondhand statt Fast Fashion.</p></div>
-      <div class="card reveal"><span>🥗</span><h3>Pflanzlich</h3><p>1–2 fleischfreie Tage pro Woche.</p></div>
-      <div class="card reveal"><span>🥤</span><h3>Plastikfrei</h3><p>Trinkflasche und Stoffbeutel.</p></div>
-      <div class="card reveal"><span>🔌</span><h3>Energie sparen</h3><p>Standby aus, Steckerleiste an.</p></div>
-      <div class="card reveal"><span>🚿</span><h3>Wasser sparen</h3><p>2 Minuten kürzer duschen.</p></div>
-      <div class="card reveal"><span>☁️</span><h3>Digital</h3><p>Alte Mails und Dateien löschen.</p></div>
-      <div class="card reveal"><span>♻️</span><h3>Weitergeben</h3><p>Spenden, tauschen, recyceln.</p></div>
+      <a class="card reveal" href="fakten.html" style="text-decoration:none;color:inherit">
+        <span class="ic">📊</span><h3>Fakten</h3><p>Wo der Planet unter Druck steht.</p>
+      </a>
+      <a class="card reveal" href="schule.html" style="text-decoration:none;color:inherit">
+        <span class="ic">🎒</span><h3>Schule</h3><p>Wie viel Müll macht deine Pause?</p>
+      </a>
+      <a class="card reveal" href="tipps.html" style="text-decoration:none;color:inherit">
+        <span class="ic">💡</span><h3>Tipps</h3><p>8 Strategien für deinen Alltag.</p>
+      </a>
+      <a class="card reveal" href="mitmachen.html" style="text-decoration:none;color:inherit">
+        <span class="ic">🏆</span><h3>Mitmachen</h3><p>Deine 7-Tage-Challenge.</p>
+      </a>
     </div>
   </section>
 
-  <!-- FINALE -->
-  <section class="section finale">
-    <h2 class="reveal">Jeder Beitrag zählt</h2>
-    <p class="big reveal">Nicht wenige, die alles perfekt machen –<br>sondern <strong>viele</strong>, die kleine Schritte gehen.</p>
-    <div class="pulse reveal">🌱</div>
-  </section>
-
-  <footer>
-    <p>Mach mit. Erzähl es weiter. 💚</p>
-  </footer>
-
-  <script>
-    // Scroll-Reveal
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach((e, i) => {
-        if (e.isIntersecting) {
-          setTimeout(() => e.target.classList.add('visible'), (i % 4) * 90);
-          io.unobserve(e.target);
-        }
-      });
-    }, { threshold: 0.15 });
-    document.querySelectorAll('.reveal').forEach(el => io.observe(el));
-
-    // Zähler-Animation
-    const fmt = (n, sep) => sep ? n.toLocaleString('de-DE') : n;
-    const co = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (!e.isIntersecting) return;
-        const el = e.target, to = +el.dataset.to, sep = el.dataset.sep;
-        const dur = 1800, start = performance.now();
-        const tick = (now) => {
-          const p = Math.min((now - start) / dur, 1);
-          const eased = 1 - Math.pow(1 - p, 3);
-          el.textContent = fmt(Math.round(to * eased), sep);
-          if (p < 1) requestAnimationFrame(tick);
-        };
-        requestAnimationFrame(tick);
-        co.unobserve(el);
-      });
-    }, { threshold: 0.6 });
-    document.querySelectorAll('.count').forEach(el => co.observe(el));
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
